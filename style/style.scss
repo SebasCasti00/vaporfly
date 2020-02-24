@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap'); 
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 16px;
+  }
+
+  body{
+    background: rgba(66,66,66,1);
+    background: -moz-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(112,112,112,1)));
+    background: -webkit-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+    background: -o-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+    background: -ms-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+    background: linear-gradient(to right, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+ }
+
+
+ @import 'mainnav';
