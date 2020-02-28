@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -115,6 +116,10 @@ body {
   margin: 10px;
 }
 
+.receiver_text {
+  font-family: 'Anton';
+}
+
 .receiver__text--nike {
   position: absolute;
   font-size: 5em;
@@ -166,6 +171,7 @@ body {
   margin: 0;
   top: 300px;
   left: 50%;
+  right: 50%;
   color: #B8B8B8;
 }
 /*# sourceMappingURL=style.css.map */

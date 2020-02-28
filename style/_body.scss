@@ -5,6 +5,9 @@ margin: 10px;
 
 $top-pos: 500px;
 
+.receiver_text{
+    font-family: 'Anton';
+}
 
 .receiver__text--nike{
     position: absolute;
@@ -57,5 +60,7 @@ $top-pos: 500px;
     margin: 0;
     top: 300px;
     left: 50%;
+    right: 50%;
     color: #B8B8B8;
+    
 }
