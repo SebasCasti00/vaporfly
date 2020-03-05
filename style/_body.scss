@@ -7,16 +7,19 @@ $top-pos: 500px;
 
 .receiver_text{
     font-family: 'Anton';
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
 .receiver__text--nike{
-    position: absolute;
+    
     font-size: 5em;
-    padding: 0;
-    margin: 0;
+    
     top: $top-pos;
     left: 100px;
-    color: white;
+    
 }
 
 .receiver__text--next{
