@@ -1,0 +1,24 @@
+.newsletter__input{
+
+    display: inline-block;
+     -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border-top: 1px solid rgb(183,183,183);
+    border-right: 1px solid rgb(183,183,183);
+    border-bottom: 3px solid rgb(183,183,183);
+    border-left: 3px solid rgb(183,183,183);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal Verdana, Geneva, sans-serif;
+    color: rgb(211, 211, 211);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252, 252, 252, 0.09);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+
+}
