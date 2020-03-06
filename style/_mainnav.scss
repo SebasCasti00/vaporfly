@@ -11,6 +11,7 @@
 .mainnav{
     margin-left: 10%;
     justify-content: space-between;
+    display: inline-block;
     
 }
 
@@ -22,6 +23,7 @@
     font-size: 1.4em;
     align-items: flex-end;
     margin: 0px 40px;
+    display: inline-block;
 }
 
 .mainheader{
@@ -59,13 +61,12 @@
 
 .mainnav__link::after{
    content: '';
-   display: inline-flex;
+   display: block;
    width: 0;
-   height: 5px;
+   height: 2px;
    background: #ffffff;
    transition: width .3s;
-   position: static;
-}
+   }
 
 .mainnav__link:hover::after{
     width: 100%;
