@@ -1,10 +1,8 @@
 .publicidad{
-    width: 100%;
-    margin: 100px;
+    position: relative;
 }
 
 .publicidad__imagen{
-    position: static;
-   margin-left: 50%;
-   margin-right: 50%;
+    display: block;
+    margin: 20px auto;
 }

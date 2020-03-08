@@ -3,7 +3,6 @@
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-            max-width: fit-content;
   }
   
   body, html {
@@ -13,13 +12,7 @@
   }
 
   body{
-
-    background: rgba(66,66,66,1);
-    background: -moz-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(112,112,112,1)));
-    background: -webkit-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
-    background: -o-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
-    background: -ms-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
+    margin: 0;    
     background: linear-gradient(to right, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
  }
 
@@ -27,3 +20,4 @@
  @import 'mainnav';
  @import 'newsletter';
  @import 'publicidad';
+ @import 'footer';
