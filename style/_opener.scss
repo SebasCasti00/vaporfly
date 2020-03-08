@@ -1,4 +1,15 @@
 .openershoe{
+    display: flex;
+    margin: 2%;
+    padding: 20px;
     position: relative;
-    margin: auto;
+    justify-content: center;
+}
+
+.openershoe__img{
+    position: absolute;
+}
+
+.openershoe__img--shoe{
+    width: 1100px;
 }

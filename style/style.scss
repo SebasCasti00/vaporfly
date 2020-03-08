@@ -12,6 +12,9 @@
   }
 
   body{
+    
+    flex-direction: column;
+
     background: rgba(66,66,66,1);
     background: -moz-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(112,112,112,1)));

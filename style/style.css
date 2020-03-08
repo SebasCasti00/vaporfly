@@ -12,6 +12,10 @@ body, html {
 }
 
 body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #424242;
   background: -webkit-gradient(left top, right top, color-stop(0%, #424242), color-stop(100%, #707070));
   background: -webkit-gradient(linear, left top, right top, from(#424242), to(#707070));
@@ -110,6 +114,18 @@ body {
   transition: width .3s;
 }
 
+.newsletter {
+  width: 40%;
+  height: 200px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px;
+  width: 500px;
+  height: 500px;
+}
+
 .newsletter__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,7 +190,22 @@ input[type=text]:focus {
 }
 
 .openershoe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2%;
+  padding: 20px;
   position: relative;
-  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.openershoe__img {
+  position: absolute;
+}
+
+.openershoe__img--shoe {
+  width: 1100px;
 }
 /*# sourceMappingURL=style.css.map */
