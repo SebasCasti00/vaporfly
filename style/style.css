@@ -172,4 +172,9 @@ input[type=text]:focus {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.openershoe {
+  position: relative;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
