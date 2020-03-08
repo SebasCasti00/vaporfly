@@ -3,6 +3,7 @@
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+            max-width: fit-content;
   }
   
   body, html {
@@ -12,8 +13,6 @@
   }
 
   body{
-    
-    flex-direction: column;
 
     background: rgba(66,66,66,1);
     background: -moz-linear-gradient(left, rgba(66,66,66,1) 0%, rgba(112,112,112,1) 100%);
@@ -27,4 +26,4 @@
 
  @import 'mainnav';
  @import 'newsletter';
- @import 'opener';
+ @import 'publicidad';
