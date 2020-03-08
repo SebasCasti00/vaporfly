@@ -135,7 +135,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 50px;
-  position: fixed;
+  position: relative;
 }
 
 input[type=text] {
@@ -203,9 +203,24 @@ input[type=text]:focus {
 
 .openershoe__img {
   position: absolute;
+  margin-top: 125px;
 }
 
 .openershoe__img--shoe {
   width: 1100px;
+}
+
+.openershoe__words {
+  position: relative;
+}
+
+.openershoe__words--zoom {
+  color: #949494;
+  font-size: 120px;
+  margin-top: auto;
+}
+
+.openershoe__words--nike {
+  font-size: 50px;
 }
 /*# sourceMappingURL=style.css.map */
