@@ -1,14 +1,17 @@
 .openershoe{
-    display: block;
+    display: grid;
     background-image: url("../img/Recurso 2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    margin: auto;
+    justify-content: center;
 }
 
 .rotation__img{
-    display: block;
     padding: 20px;
+    margin: auto;
+    display: flex;
 }
 
 .openershoe__text{
