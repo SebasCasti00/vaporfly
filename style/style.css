@@ -50,7 +50,7 @@ body {
           text-decoration: white;
   padding: 6px 0px;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1.2em;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -89,7 +89,7 @@ body {
 }
 
 .mainnav__plus {
-  margin-left: 130px;
+  margin-left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
