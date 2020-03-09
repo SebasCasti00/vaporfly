@@ -442,7 +442,7 @@ p {
 
 .slider {
   width: 1000px;
-  height: 700px;
+  height: 1100px;
   overflow: hidden;
   position: relative;
   margin: 30px auto;
@@ -466,7 +466,7 @@ p {
 
 .slider__img {
   width: 1000px;
-  height: 700px;
+  height: 1100px;
   -o-object-fit: cover;
      object-fit: cover;
   -ms-flex-negative: 0;
@@ -475,7 +475,7 @@ p {
 
 .slider__btn {
   position: absolute;
-  top: 460px;
+  top: 600px;
   -webkit-box-shadow: 0px 1px 0px 0px #474347;
           box-shadow: 0px 1px 0px 0px #474347;
   border-radius: 15px;
