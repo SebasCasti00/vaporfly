@@ -336,6 +336,11 @@ input[type=text]:focus {
   border-left: whitesmoke solid 0.5px;
 }
 
+.caracteristics__article p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
 .caracteristics__article img {
   width: 300px;
   height: 300px;
@@ -343,8 +348,9 @@ input[type=text]:focus {
 }
 
 .caracteristics__title {
+  text-shadow: rgba(192, 192, 192, 0.219);
   color: whitesmoke;
-  font-size: x-large;
+  font-size: 30px;
   margin: 5px 0px;
 }
 
@@ -395,5 +401,42 @@ ul {
 p {
   -webkit-text-decoration: whitesmoke;
           text-decoration: whitesmoke;
+}
+
+.specs {
+  margin: 20px 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.specs ul {
+  margin: auto;
+}
+
+.specs li {
+  list-style-type: disc;
+  margin: 10px;
+}
+
+.specs__title {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+.specs__img {
+  width: 400px;
+}
+
+.specs__text {
+  margin-top: 200px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=style.css.map */
